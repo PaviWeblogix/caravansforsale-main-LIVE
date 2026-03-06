@@ -1690,6 +1690,10 @@ export default function ListingsPage({
                 </div>
                 <div>
                   <FilterSlider
+                    setIsLoading={setIsLoading}
+                    setIsMainLoading={setIsMainLoading}
+                    setIsFeaturedLoading={setIsFeaturedLoading}
+                    setIsPremiumLoading={setIsPremiumLoading}
                     currentFilters={filters}
                     categoryCounts={sliderCategoryCounts}
                     isCategoryCountLoading={sliderCatLoading}
